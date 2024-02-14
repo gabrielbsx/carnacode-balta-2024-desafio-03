@@ -1,0 +1,26 @@
+﻿@page "/"
+@using CarmaCode.Core.Application.Contracts
+@inject NavigationManager NavigationManager
+@inject IAuthenticationService AuthenticationService
+
+<PageTitle>Home</PageTitle>
+
+<div>
+	
+</div>
+
+@code {
+	protected override async Task OnInitializedAsync()
+	{
+		var isLoggedIn = await AuthenticationService.IsLogged();
+
+		if (isLoggedIn)
+		{
+			NavigationManager.NavigateTo("/imc");
+		}
+		else
+		{
+			NavigationManager.NavigateTo("/login");
+		}
+	}
+}
