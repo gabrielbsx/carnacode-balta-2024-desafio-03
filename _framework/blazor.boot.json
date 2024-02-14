@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CarnaCode.Presentation",
   "resources": {
-    "hash": "sha256-RD1JMpZhrWgl8q5Hm4qYWw62oF3qOFk3hMLXwkx7QaA=",
+    "hash": "sha256-YUzXaGWZdNxaPwIa2M1Ei7+w6j0jaof5+mi5gR4bXnY=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.jgt5nhn140.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -17,8 +17,8 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "CarnaCode.Core.wasm": "sha256-A5Ze9JEAHLmxWU09Bhpw6QNyTAtm7CUn+DaIUueUnfU=",
-      "CarnaCode.Presentation.wasm": "sha256-eXN1TabuTZecUp+97GDFDCQTV1inBadsm+6fdVSrcAs=",
+      "CarnaCode.Core.wasm": "sha256-CXEf6ovOUxcc84264jf7dQZgDMI4snijIjv/QOiufyc=",
+      "CarnaCode.Presentation.wasm": "sha256-49acxQD+vE7Q9YKe+Ic3ZpSzQTYJrSVyV5u0eZ/PB7g=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-AXX1NmS56d3HD8Qines9OLER3JFD4bp8k9OQBhpcpFk=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-q3CrcweXT2YiqXdVSiViJc/hdhv5RItnP8hKgCt/ZQk=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-46MURgmNzeo92tpuG0lVU2tjfwtze+suqfhefRp9UgQ=",
