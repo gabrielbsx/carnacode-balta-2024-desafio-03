@@ -43,7 +43,7 @@
 			</button>
 		</div>
 		<div class="w-full flex">
-			<a class="w-full cursor-pointer text-center btn btn-secondary transition-all duration-500" @onclick='() => { NavigationManager.NavigateTo("/login"); }'>
+			<a class="w-full cursor-pointer text-center btn btn-secondary transition-all duration-500" @onclick='() => { NavigationManager.NavigateTo("login"); }'>
 				Já possuo conta
 			</a>
 		</div>
@@ -56,6 +56,6 @@
 	private async Task RegisterAsync()
 	{
 		await AuthenticationService.CreateUser(CreateUserInput.Name, CreateUserInput.Email, CreateUserInput.Password);
-		NavigationManager.NavigateTo("/login");
+		NavigationManager.NavigateTo("login");
 	}
 }
